@@ -2,7 +2,7 @@ package Exercise2;
 
 public class sevenSegment {
     public static void main(String[] args) {
-        segmentedDisplay("01100111");
+        segmentedDisplay("11100001");
 
 
     }
@@ -50,7 +50,7 @@ public class sevenSegment {
                     if(numbers.charAt(6) == '0'){
                         segment[2][0] = " ";
                         segment[2][1] = " ";
-                        segment[2][3] = " ";
+                        segment[2][2] = " ";
                     }
                     System.out.print(segment[number][num] + " ");
                 }

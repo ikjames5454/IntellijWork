@@ -5,48 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9785e63-6c59-4b9b-b1d9-46a72dbb07c4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Chapter4/CreditLimit18.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter4/Exercise4_6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter4/Integer21.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter4/Integer23.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter4/Integer24.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter4/Loop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter4/Mileage17.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chibuzor/Array2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chibuzor/Average.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chibuzor/Code10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chibuzor/Code11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chibuzor/Code16.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chibuzor/Code7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chibuzor/Code8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chibuzor/Score4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chibuzor/Scores5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chibuzor/Scores6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chibuzor/SumAndAverage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chibuzor/Tax.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chibuzor/sum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ChibuzorAssignment/ArrayLargestNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ChibuzorAssignment/ArrayOfArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ChibuzorAssignment/Concatenation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ChibuzorAssignment/Element.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ChibuzorAssignment/EvenList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ChibuzorAssignment/OddList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ChibuzorAssignment/Palindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ChibuzorAssignment/Reverse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ChibuzorAssignment/Sums.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ChibuzorAssignment/Total.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercise2/ArrayOfArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercise2/ArrayWork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercise2/ArrayWork2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercise2/sevenSegment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercises/Amount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercises/Do.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercises/MultiplicationWithNoAsterisks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ConcatenationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Multiplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/MultiplicationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter4/Exercise25.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter4/Exercise27.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter4/Exercise31.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter4/Exercise32.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter4/Exercise36.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter4/Exercise39.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ChibuzorAssignment/PersonalityTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exercises/asterisk_work.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exercise2/sevenSegment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercise2/sevenSegment.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,13 +81,13 @@
       <recent name="tdd" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.sevenSegment">
-    <configuration name="Hash" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exercises.Hash" />
+  <component name="RunManager" selected="Application.PersonalityTest">
+    <configuration name="Code8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chibuzor.Code8" />
       <module name="myWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Exercises.*" />
+          <option name="PATTERN" value="Chibuzor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,8 +95,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Integer21" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter4.Integer21" />
+    <configuration name="Exercise31" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter4.Exercise31" />
       <module name="myWork" />
       <extension name="coverage">
         <pattern>
@@ -141,8 +108,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Integer23" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter4.Integer23" />
+    <configuration name="Exercise36" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter4.Exercise36" />
       <module name="myWork" />
       <extension name="coverage">
         <pattern>
@@ -154,8 +121,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Integer24" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter4.Integer24" />
+    <configuration name="Exercise39" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter4.Exercise39" />
       <module name="myWork" />
       <extension name="coverage">
         <pattern>
@@ -167,12 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="sevenSegment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exercise2.sevenSegment" />
+    <configuration name="PersonalityTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ChibuzorAssignment.PersonalityTest" />
       <module name="myWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Exercise2.*" />
+          <option name="PATTERN" value="ChibuzorAssignment.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -182,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.sevenSegment" />
-        <item itemvalue="Application.Integer24" />
-        <item itemvalue="Application.Integer23" />
-        <item itemvalue="Application.Integer21" />
-        <item itemvalue="Application.Hash" />
+        <item itemvalue="Application.PersonalityTest" />
+        <item itemvalue="Application.Exercise39" />
+        <item itemvalue="Application.Exercise31" />
+        <item itemvalue="Application.Exercise36" />
+        <item itemvalue="Application.Code8" />
       </list>
     </recent_temporary>
   </component>
@@ -270,7 +237,13 @@
       <workItem from="1689716168576" duration="3658000" />
       <workItem from="1689732728600" duration="5020000" />
       <workItem from="1689750548609" duration="20645000" />
-      <workItem from="1689798362290" duration="11252000" />
+      <workItem from="1689798362290" duration="11997000" />
+      <workItem from="1689817608684" duration="776000" />
+      <workItem from="1689838045536" duration="15662000" />
+      <workItem from="1689941381929" duration="26333000" />
+      <workItem from="1690006646646" duration="1710000" />
+      <workItem from="1690031117590" duration="9481000" />
+      <workItem from="1690054942320" duration="3764000" />
     </task>
     <servers />
   </component>
