@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9785e63-6c59-4b9b-b1d9-46a72dbb07c4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Chapter4/Exercise25.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter4/Exercise27.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter4/Exercise31.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter4/Exercise32.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter4/Exercise36.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter4/Exercise39.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ChibuzorAssignment/PersonalityTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exercise2/sevenSegment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercise2/sevenSegment.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -243,7 +235,7 @@
       <workItem from="1689941381929" duration="26333000" />
       <workItem from="1690006646646" duration="1710000" />
       <workItem from="1690031117590" duration="9481000" />
-      <workItem from="1690054942320" duration="3764000" />
+      <workItem from="1690054942320" duration="5899000" />
     </task>
     <servers />
   </component>

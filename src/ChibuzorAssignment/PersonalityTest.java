@@ -446,7 +446,7 @@ public class PersonalityTest {
     }
 
     public static void personality() {
-        String trait = " ";
+        String trait = "";
         if (counterEIA > counterEIB) {
             trait = trait + "E";
         } else {
