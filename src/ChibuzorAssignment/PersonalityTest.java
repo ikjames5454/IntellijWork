@@ -470,7 +470,7 @@ public class PersonalityTest {
 
         System.out.println("from logistic your personality trait is: " + trait);
         switch (trait) {
-            case "ENFJ" -> System.out.println("ENFJ personalites (TRAIT)\n\n" +
+            case "ENFJ" -> System.out.println("\n ENFJ personalites (TRAIT)\n\n" +
                     "A ENTJ (ENFJ) is a person with the Extraverted, Intuitive, Feeling, and Judging personality traits. These warm, forthright types love helping others, and they tend to have strong ideas and values. They back their perspective with the creative energy to achieve their goals.\n" +
                     "\n" +
                     "ENTJs (ENFJs) feel called to serve a greater purpose in life. Thoughtful and idealistic, these personality types strive to have a positive impact on other people and the world around them. They rarely shy away from an opportunity to do the right thing, even when doing so is far from easy.\n" +
@@ -481,7 +481,7 @@ public class PersonalityTest {
                     "\n" +
                     "People with this personality type are devoted altruists, ready to face slings and arrows in order to stand up for the people and ideas that they believe in. This strength of conviction bolsters ENTJs’ innate leadership skills, particularly their ability to guide people to work together in service of the greater good.");
 
-            case "ENFP" -> System.out.println("ENFP personalites (TRAIT)\n\n" +
+            case "ENFP" -> System.out.println("\n ENFP personalites (TRAIT)\n\n" +
                     "A ENFP  is someone with the Extraverted, Intuitive, Feeling, and Prospecting personality traits. These people tend to embrace big ideas and actions that reflect their sense of hope and goodwill toward others. Their vibrant energy can flow in many directions.\n" +
                     "\n" +
                     "It doesn’t interest me what you do for a living. I want to know what you ache for – and if you dare to dream of meeting your heart’s longing.\n" +
@@ -501,7 +501,7 @@ public class PersonalityTest {
                     "ENFP personalities are capable of intense thought and feeling – and also of kicking back and having a good time.\n" +
                     "Even in moments of fun, ENFPs want to connect emotionally with others. Few things matter more to these personality types than having genuine, heartfelt conversations with the people they cherish. ENFPs believe that everyone deserves to express their feelings, and their empathy and warmth create spaces where even the most timid spirits can feel comfortable opening up.");
 
-            case "ENTJ" -> System.out.println("ENTJ personalities(TRAIT) \n\n" +
+            case "ENTJ" -> System.out.println("\n ENTJ personalities(TRAIT) \n\n" +
                     "A (ENTJ) is someone with the Extraverted, Intuitive, Thinking, and Judging personality traits. They are decisive people who love momentum and accomplishment. They gather information to construct their creative visions but rarely hesitate for long before acting on them. \n" +
                     "If there’s anything ENTJs love,it’s a good challenge, big or small, and they firmly believe that given enough time and resources, they can achieve any goal. This quality makes people with the Commander personality type brilliant entrepreneurs, and their ability to think strategically and hold a long-term focus while executing each step of their plans with determination and precision makes them powerful business leaders.\n" +
                     "\n" +
@@ -512,7 +512,7 @@ public class PersonalityTest {
                     "ENTJ exemplify the difference between moment-to-moment crisis management and navigating the challenges and steps of a bigger plan, and are known for examining every angle of a problem and not just resolving momentary issues, but moving the whole project forward with their solutions. These qualities combine to create individuals who are able to inspire and invigorate others, who people actually want to be their leaders, and this in turn helps Commanders to accomplish their often ambitious goals that could never be finished alone.\n");
 
 
-            case "ENTP" -> System.out.println("ENTP personalities(TRAIT) \n\n" +
+            case "ENTP" -> System.out.println("\n ENTP personalities(TRAIT) \n\n" +
                     "\n" +
                     "An (ENTP) is a person with the Extraverted, Intuitive, Thinking, and Prospecting personality traits. They tend to be bold and creative, deconstructing and rebuilding ideas with great mental agility. They pursue their goals vigorously despite any resistance they might encounter.\n" +
                     "Quick-witted and audacious, ENTP aren’t afraid to disagree with the status quo. In fact, they’re not afraid to disagree with pretty much anything or anyone. Few things light up people with this personality type more than a bit of verbal sparring – and if the conversation veers into controversial terrain, so much the better.\n" +
@@ -521,7 +521,7 @@ public class PersonalityTest {
                     "some of the weakness of the ENTP are that they have mental exercise of debating and to them, nothing is sacred. They often misjudge others feelings and push their debtates well past others tolerance level. sometimes this personalities find it difficult to focus.\n" +
                     "some of the Strength of this personality is that hey are very knowledgeable, they are quick thinkers, and excellent brainstormers. Their confidence, quick thought and ability to connect disparate ideas in novel ways create a style of communication that is charming, even entertaining, and informative at the same time.");
 
-            case "ISFP" -> System.out.println("An ISFP personalities(TRAIT)" +
+            case "ISFP" -> System.out.println("\n An ISFP personalities(TRAIT)" +
                     "(ISFP) is a person with the Introverted, Observant, Feeling, and Prospecting personality traits. They tend to have open minds, approaching life, new experiences, and people with grounded warmth. Their ability to stay in the moment helps them uncover exciting potentials.\n" +
                     "\n" +
                     "I change during the course of a day. I wake and I’m one person, and when I go to sleep I know for certain I’m somebody else.\n" +
@@ -543,7 +543,7 @@ public class PersonalityTest {
                     "Living in Harmony\n" +
                     "In their relationships, ISFPs are warm, friendly, and caring, taking wholehearted enjoyment in the company of their nearest and dearest. But make no mistake: this is an Introverted personality type, meaning that ISFPs need dedicated alone time to recharge their energy after socializing with others. This alone time is what allows ISFPs to reestablish a sense of their own identity – in other words, to reconnect with who they truly are.");
 
-            case "ESTP" -> System.out.println("ESTP personalities(TRAIT)\n\n" +
+            case "ESTP" -> System.out.println("\nESTP personalities(TRAIT)\n\n" +
                     "An ESTP is someone with the Extraverted, Observant, Thinking, and Prospecting personality traits. They tend to be energetic and action-oriented, deftly navigating whatever is in front of them. They love uncovering life’s opportunities, whether socializing with others or in more personal pursuits.\n" +
                     "\n" +
                     "ESTPs always have an impact on their immediate surroundings – the best way to spot them at a party is to look for the whirling eddy of people flitting about them as they move from group to group. Laughing and entertaining with a blunt and earthy humor, ESTP personalities love to be the center of attention. If an audience member is asked to come on stage, ESTPs volunteer – or volunteer a shy friend.\n" +
@@ -561,7 +561,7 @@ public class PersonalityTest {
                     "The Path Less Traveled\n" +
                     "With perhaps the most perceptive, unfiltered view of any type, ESTPs have a unique skill in noticing small changes. Whether a shift in facial expression, a new clothing style, or a broken habit, people with this personality type pick up on hidden thoughts and motives where most types would be lucky to pick up anything specific at all. ESTPs use these observations immediately, calling out the change and asking questions, often with little regard for sensitivity. ESTPs should remember that not everyone wants their secrets and decisions broadcast.");
 
-            case "ESTJ" -> System.out.println("ESTJ personalities(TRAIT) \n\n" +
+            case "ESTJ" -> System.out.println("\n ESTJ personalities(TRAIT) \n\n" +
                     "An ESTJ (ESTJ) is someone with the Extraverted, Observant, Thinking, and Judging personality traits. They possess great fortitude, emphatically following their own sensible judgment. They often serve as a stabilizing force among others, able to offer solid direction amid adversity.\n" +
                     "\n" +
                     "Good order is the foundation of all things.\n" +
@@ -582,7 +582,7 @@ public class PersonalityTest {
                     "The main challenge for ESTJs is to recognize that not everyone follows the same path or contributes in the same way. A true leader recognizes the strength of the individual, as well as that of the group, and helps bring those individuals’ ideas to the table. That way, ESTJs really do have all the facts, and are able to lead the charge in directions that work for everyone.");
 
 
-            case "ESFJ" -> System.out.println("ESFJ personalities(TRAIT)\n\n" +
+            case "ESFJ" -> System.out.println("\n ESFJ personalities(TRAIT)\n\n" +
 
                     "A ESFJ (ESFJ) is a person with the Extraverted, Observant, Feeling, and Judging personality traits. They are attentive and people-focused, and they enjoy taking part in their social community. Their achievements are guided by decisive values, and they willingly offer guidance to others.\n" +
                     "\n" +
@@ -612,9 +612,8 @@ public class PersonalityTest {
                     "For many people with the ESFJ personality type, one of life’s greatest challenges is accepting that they can’t control anyone else’s thoughts or behavior – not even those who are nearest and dearest to them. Fortunately, ESFJs can find peace and fulfillment by focusing on what they do best: setting an example of care, consideration, and responsibility – and bringing people together in the process.");
 
 
-            case "ESFP" -> System.out.println("An ESFP personalities(TRAIT) \n" +
+            case "ESFP" -> System.out.println("\n An ESFP personalities(TRAIT) \n\n" +
                     "ESFP is a person with the Extraverted, Observant, Feeling, and Prospecting personality traits. These people love vibrant experiences, engaging in life eagerly and taking pleasure in discovering the unknown. They can be very social, often encouraging others into shared activities.\n" +
-                    "\n" +
                     "\n" +
                     "If anyone is to be found spontaneously breaking into song and dance, it is the ESFP personality type. ESFPs get caught up in the excitement of the moment, and want everyone else to feel that way, too. No other personality type is as generous with their time and energy as ESFPs when it comes to encouraging others, and no other personality type does it with such irresistible style.\n" +
                     "\n" +
@@ -633,7 +632,7 @@ public class PersonalityTest {
                     "There’s nothing that makes ESFPs feel quite as unhappy as realizing that they are boxed in by circumstance, unable to join their friends.\n" +
                     "ESFPs are welcome wherever there’s a need for laughter, playfulness, and a volunteer to try something new and fun – and there’s no greater joy for ESFP personalities than to bring everyone else along for the ride. ESFPs can chat for hours, sometimes about anything but the topic they meant to talk about, and share their loved ones’ emotions through good times and bad. If they can just remember to keep their ducks in a row, they’ll always be ready to dive into all the new and exciting things the world has to offer, friends in tow.");
 
-            case "ISTP" -> System.out.println("ISTP personalities(TRAIT)\n\n" +
+            case "ISTP" -> System.out.println("\n ISTP personalities(TRAIT)\n\n" +
                     " ISTP is someone with the Introverted, Observant, Thinking, and Prospecting personality traits. They tend to have an individualistic mindset, pursuing goals without needing much external connection. They engage in life with inquisitiveness and personal skill, varying their approach as needed.\n" +
                     "\n" +
                     "I wanted to live the life, a different life. I didn’t want to go to the same place every day and see the same people and do the same job. I wanted interesting challenges.\n" +
@@ -662,7 +661,7 @@ public class PersonalityTest {
                     "Finding an environment where they can work with good friends who understand their style and unpredictability, combining their creativity, sense of humor and hands-on approach to build practical solutions and things, will give ISTPs many happy years of building useful boxes – and admiring them from the outside.");
 
 
-            case "ISTJ" -> System.out.println("ISTJ personalities(TRAIT)\n\n" +
+            case "ISTJ" -> System.out.println("\n ISTJ personalities(TRAIT)\n\n" +
                     "A Logistician (ISTJ) is someone with the Introverted, Observant, Thinking, and Judging personality traits. These people tend to be reserved yet willful, with a rational outlook on life. They compose their actions carefully and carry them out with methodical purpose.\n" +
                     "\n" +
                     "ISTJ pride themselves on their integrity. People with this personality type mean what they say, and when they commit to doing something, they make sure to follow through.\n" +
@@ -677,7 +676,7 @@ public class PersonalityTest {
                     "ISTJ’ dedication is an admirable quality, and it drives many of their accomplishments. But it can also become a weakness that other people take advantage of. With their strong work ethic and sense of duty, ISTJ may routinely find themselves shouldering other people’s responsibilities. Even if they don’t complain about the situation, ISTJ can end up exhausted or discouraged if they’re constantly expected – or taking it upon themselves – to pick up the slack for their colleagues, friends, or loved ones.");
 
 
-            case "ISFJ" -> System.out.println("ISFJ personalities(TRAIT)\n\n" +
+            case "ISFJ" -> System.out.println("\n ISFJ personalities(TRAIT)\n\n" +
                     "A ISFJ () is someone with the Introverted, Observant, Feeling, and Judging personality traits. These people tend to be warm and unassuming in their own steady way. They’re efficient and responsible, giving careful attention to practical details in their daily lives.\n" +
                     "\n" +
                     "Love only grows by sharing. You can only have more for yourself by giving it away to others.\n" +
@@ -706,7 +705,7 @@ public class PersonalityTest {
                     "\n" +
                     "Dedicated and thoughtful, ISFJs find great joy in helping those around them build stable, secure, and happy lives. It may not be easy for people with this personality type to show up for themselves in the way that they show up for other people, but when they do, they often find themselves with even more energy and motivation to do good in the world.");
 
-            case "INTJ" -> System.out.println("INTJ pesonality(TRAIT) \n\n" +
+            case "INTJ" -> System.out.println("\n INTJ pesonality(TRAIT) \n\n" +
                     "An INTJ is a person with the Introverted, Intuitive, Thinking, and Judging personality traits. These thoughtful tacticians love perfecting the details of life, applying creativity and rationality to everything they do. Their inner world is often a private, complex one.\n" +
                     "Rational and quick-witted, INTJs pride themselves on their ability to think for themselves, not to mention their uncanny knack for seeing right through phoniness and hypocrisy. But because their minds are never at rest, Architects may struggle to find people who can keep up with their nonstop analysis of everything around them.\n" +
                     "\n" +
@@ -719,7 +718,7 @@ public class PersonalityTest {
 
 
             case "INTP" ->
-                    System.out.println("INTP personalities(TRAIT) \n\n" +
+                    System.out.println("\n INTP personalities(TRAIT) \n\n" +
                             "A (INTP) is someone with the Introverted, Intuitive, Thinking, and Prospecting personality traits. These flexible thinkers enjoy taking an unconventional approach to many aspects of life. They often seek out unlikely paths, mixing willingness to experiment with personal creativity.\n" +
                             "INTP often lose themselves in thought – which isn’t necessarily a bad thing. People with this personality type hardly ever stop thinking. From the moment they wake up, their minds buzz with ideas, questions, and insights. At times, they may even find themselves conducting full-fledged debates in their own heads.\n" +
                             "People with this personality type want to understand everything in the universe, but one area in particular tends to mystify them: human nature. As their name suggests, Logicians feel most at home in the realm of logic and rationality. As a result, they can find themselves baffled by the illogical, irrational ways that feelings and emotions influence people’s behavior – including their own.\n" +
@@ -728,7 +727,7 @@ public class PersonalityTest {
 
 
             case "INFP" ->
-                    System.out.println("INFP personalities(TRAIT) \n\n" +
+                    System.out.println("\n INFP personalities(TRAIT) \n\n" +
                             "A  (INFP) is someone who possesses the Introverted, Intuitive, Feeling, and Prospecting personality traits. These rare personality types tend to be quiet, open-minded, and imaginative, and they apply a caring and creative approach to everything they do.\n" +
                             "\n" +
                             "Although they may seem quiet or unassuming,  (INFPs) have vibrant, passionate inner lives. Creative and imaginative, they happily lose themselves in daydreams, inventing all sorts of stories and conversations in their minds. These personalities are known for their sensitivity – INFP can have profound emotional responses to music, art, nature, and the people around them.\n" +
@@ -753,6 +752,9 @@ public class PersonalityTest {
                             "\n" +
                             "INFJ may be Introverted, but they value deep, authentic relationships with others. Few things bring these personalities as much joy as truly knowing another person – and being known in return. Advocates enjoy meaningful conversations far more than small talk, and they tend to communicate in a way that is warm and sensitive");
 
+
+            default ->
+                    System.out.println("non of that personality exist, sorry try again later");
         }
 
     }
