@@ -20,10 +20,11 @@ public class CardValidator {
         String cardNumberHolder = cardNumber + converter;
         int length = cardNumberHolder.length();
         int sum;
-        String total;
+        String validity;
 
         int[] numberBank = new int[length];
         for (int row = 0; row < cardNumberHolder.length(); row++) {
+            
             var index = Integer.parseInt(String.valueOf(cardNumberHolder.charAt(row)));
             if (row == 0) {
                 numberBank[0] = index;
@@ -112,8 +113,8 @@ public class CardValidator {
         }
         sum = sumOfOddPlaces + doubleOfSecondDigit;
         if (sum % 10 == 0) {
-            total = "Valid";
-        } else total = "Invalid";
+            validity = "Valid";
+        } else validity = "Invalid";
 
         if (numberBank[0] == 4) {
             System.out.println("***Credit card type: " + visaCardType);
@@ -132,7 +133,7 @@ public class CardValidator {
         }
         System.out.println("***Credit Card Number: " + cardNumberHolder);
         System.out.println("***Credit Card Length: " + length);
-        System.out.println("***Credit Card Validity Status: " + total);
+        System.out.println("***Credit Card Validity Status: " + validity);
     }
 }
 

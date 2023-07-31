@@ -9,24 +9,18 @@ public class SpecificSum {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        int counter = 0;
-        int sum = 0;
-        System.out.println("Enter the integer number: ");
-        int number = input.nextInt();
+        System.out.println("Enter the initial sum number: ");
+        int initialSumNumber = input.nextInt();
 
-        while (number != 0) {
+        int sums = 0;
+        while (sums < initialSumNumber) {
 
-            sum = sum + number;
-            counter++;
             System.out.println("Enter the integer number: ");
-             number = input.nextInt();
-
-
-            if ( number >= sum ){
-                break;
-            }
+             int number = input.nextInt();
+             sums += number;
         }
-        System.out.println("the sum: " + sum);
+        System.out.println("the sums has exceeded initial sum");
+        System.out.println("the sums is now: " + sums);
 
 
 

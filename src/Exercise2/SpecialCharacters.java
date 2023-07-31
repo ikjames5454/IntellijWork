@@ -21,9 +21,9 @@ public class SpecialCharacters {
             System.out.println("Enter the special character");
             String character = input.nextLine();
             if (specialCharacter(character)){
-                System.out.println("is a special character");
+                System.out.println("does not contain special character");
             }else {
-                System.out.println("is not a special character");
+                System.out.println("contain a special character");
             }
 
 

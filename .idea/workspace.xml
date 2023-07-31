@@ -5,14 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9785e63-6c59-4b9b-b1d9-46a72dbb07c4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Chapter4/SpecificSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ChibuzorAssignment/CardValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercise2/GeoPoliticalZones.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercise2/GeoPoliticalZonesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercise2/MultiDimension.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercise2/SpecialCharacters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter5/Exercise3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter5/Exercise5_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter5/Exercise9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter5/Extremes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ChibuzorAssignment/SchoolManagement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ChibuzorAssignment/SchoolSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise2/Characters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise2/DiceRolling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise2/MethodMaximum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise2/SecureValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Victor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ChibuzorAssignment/PersonalityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChibuzorAssignment/PersonalityTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter4/SpecificSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4/SpecificSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChibuzorAssignment/CardValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChibuzorAssignment/CardValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exercise2/SpecialCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercise2/SpecialCharacters.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +40,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/ChibuzorAssignment/SchoolSystem.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="2R0Wal2oaqLEAtMyQiwVsHZEE2J" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -80,13 +91,13 @@
       <recent name="tdd" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CardValidator">
-    <configuration name="Array2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chibuzor.Array2" />
+  <component name="RunManager" selected="Application.Extremes">
+    <configuration name="Exercise9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter5.Exercise9" />
       <module name="myWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chibuzor.*" />
+          <option name="PATTERN" value="Chapter5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,8 +105,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CardValidator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ChibuzorAssignment.CardValidator" />
+    <configuration name="Extremes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter5.Extremes" />
+      <module name="myWork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Chapter5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SchoolManagement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ChibuzorAssignment.SchoolManagement" />
       <module name="myWork" />
       <extension name="coverage">
         <pattern>
@@ -107,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreditLimit18" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter4.CreditLimit18" />
+    <configuration name="SchoolSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ChibuzorAssignment.SchoolSystem" />
       <module name="myWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter4.*" />
+          <option name="PATTERN" value="ChibuzorAssignment.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,39 +144,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Integer23" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter4.Integer23" />
+    <configuration name="Chapter5 in myWork" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter4.*" />
+          <option name="PATTERN" value="Chapter5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MultiDimension" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exercise2.MultiDimension" />
-      <module name="myWork" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Exercise2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="Chapter5" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CardValidator" />
-        <item itemvalue="Application.MultiDimension" />
-        <item itemvalue="Application.Array2" />
-        <item itemvalue="Application.CreditLimit18" />
-        <item itemvalue="Application.Integer23" />
+        <item itemvalue="Application.Extremes" />
+        <item itemvalue="Application.Exercise9" />
+        <item itemvalue="JUnit.Chapter5 in myWork" />
+        <item itemvalue="Application.SchoolSystem" />
+        <item itemvalue="Application.SchoolManagement" />
       </list>
     </recent_temporary>
   </component>
@@ -248,7 +260,17 @@
       <workItem from="1690184532100" duration="3443000" />
       <workItem from="1690193763304" duration="12059000" />
       <workItem from="1690220483121" duration="1385000" />
-      <workItem from="1690222130975" duration="1712000" />
+      <workItem from="1690222130975" duration="6693000" />
+      <workItem from="1690292950524" duration="1197000" />
+      <workItem from="1690300377005" duration="10771000" />
+      <workItem from="1690367052415" duration="11370000" />
+      <workItem from="1690405863239" duration="4399000" />
+      <workItem from="1690441972561" duration="3742000" />
+      <workItem from="1690581201085" duration="4405000" />
+      <workItem from="1690628128889" duration="9408000" />
+      <workItem from="1690742646147" duration="11085000" />
+      <workItem from="1690789297048" duration="9730000" />
+      <workItem from="1690824568768" duration="12013000" />
     </task>
     <servers />
   </component>
@@ -520,6 +542,10 @@
           <line>4</line>
           <option name="timeStamp" value="105" />
         </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NumberFormatException" package="java.lang" />
+          <option name="timeStamp" value="106" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
