@@ -5,22 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9785e63-6c59-4b9b-b1d9-46a72dbb07c4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Chapter5/Exercise3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter5/Exercise5_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter5/Exercise9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter5/Extremes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ChibuzorAssignment/SchoolManagement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ChibuzorAssignment/SchoolSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercise2/Characters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercise2/DiceRolling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercise2/MethodMaximum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercise2/SecureValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercise3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Victor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/Array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/Arrays1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/Arrays3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter5/Compound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter5/CompoundInterest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter5/Exercise12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter5/Exercise14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter5/Interest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter7/example2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter7/examples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chibuzor/Array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chibuzor/Problem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chibuzor/ProblemType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ChibuzorAssignment/Checkout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ChibuzorAssignment/SchoolGrade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Enum/Activity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Enum/ActivityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Enum/Exercise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Enum/ExerciseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Enum/GeoPoliticalZones.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Enum/GeoPoliticalZonesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise2/PasswordValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ShoppingMall/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ShoppingMall/Customers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ShoppingMall/Users.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter4/SpecificSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4/SpecificSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter5/Extremes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter5/Extremes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChibuzorAssignment/ArrayLargestNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChibuzorAssignment/ArrayLargestNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ChibuzorAssignment/CardValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChibuzorAssignment/CardValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exercise2/SpecialCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercise2/SpecialCharacters.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +47,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -91,13 +105,13 @@
       <recent name="tdd" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Extremes">
-    <configuration name="Exercise9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter5.Exercise9" />
+  <component name="RunManager" selected="Application.GeoPoliticalZonesTest">
+    <configuration name="ArrayOfArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercise2.ArrayOfArray" />
       <module name="myWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter5.*" />
+          <option name="PATTERN" value="Exercise2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Extremes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter5.Extremes" />
+    <configuration name="ExerciseTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Enum.ExerciseTest" />
       <module name="myWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter5.*" />
+          <option name="PATTERN" value="Enum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SchoolManagement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ChibuzorAssignment.SchoolManagement" />
+    <configuration name="GeoPoliticalZones" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Enum.GeoPoliticalZones" />
       <module name="myWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ChibuzorAssignment.*" />
+          <option name="PATTERN" value="Enum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,12 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SchoolSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ChibuzorAssignment.SchoolSystem" />
+    <configuration name="GeoPoliticalZonesTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Enum.GeoPoliticalZonesTest" />
       <module name="myWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ChibuzorAssignment.*" />
+          <option name="PATTERN" value="Enum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,27 +158,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Chapter5 in myWork" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PasswordValidator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercise2.PasswordValidator" />
       <module name="myWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter5.*" />
+          <option name="PATTERN" value="Exercise2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Chapter5" />
-      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Extremes" />
-        <item itemvalue="Application.Exercise9" />
-        <item itemvalue="JUnit.Chapter5 in myWork" />
-        <item itemvalue="Application.SchoolSystem" />
-        <item itemvalue="Application.SchoolManagement" />
+        <item itemvalue="Application.GeoPoliticalZonesTest" />
+        <item itemvalue="Application.ExerciseTest" />
+        <item itemvalue="Application.GeoPoliticalZones" />
+        <item itemvalue="Application.ArrayOfArray" />
+        <item itemvalue="Application.PasswordValidator" />
       </list>
     </recent_temporary>
   </component>
@@ -270,7 +283,25 @@
       <workItem from="1690628128889" duration="9408000" />
       <workItem from="1690742646147" duration="11085000" />
       <workItem from="1690789297048" duration="9730000" />
-      <workItem from="1690824568768" duration="12013000" />
+      <workItem from="1690824568768" duration="12759000" />
+      <workItem from="1690911517841" duration="1014000" />
+      <workItem from="1690924951833" duration="967000" />
+      <workItem from="1690926222045" duration="871000" />
+      <workItem from="1690961292068" duration="7050000" />
+      <workItem from="1690988812424" duration="4550000" />
+      <workItem from="1691046431020" duration="25901000" />
+      <workItem from="1691136442187" duration="13152000" />
+      <workItem from="1691185821705" duration="4019000" />
+      <workItem from="1691263865622" duration="5520000" />
+      <workItem from="1691331106191" duration="304000" />
+      <workItem from="1691396035010" duration="3906000" />
+      <workItem from="1691419246219" duration="11586000" />
+      <workItem from="1691521422676" duration="3466000" />
+      <workItem from="1691538070094" duration="652000" />
+      <workItem from="1691582786256" duration="17159000" />
+      <workItem from="1691628172627" duration="3219000" />
+      <workItem from="1691653696710" duration="12603000" />
+      <workItem from="1691688926228" duration="5610000" />
     </task>
     <servers />
   </component>
@@ -507,6 +538,15 @@
           </properties>
           <option name="timeStamp" value="104" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Chibuzor/Array.java</url>
+          <line>11</line>
+          <properties class="Chibuzor.Array" method="arraySort">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/test/tdd/AccountTest.java</url>
           <line>32</line>
@@ -546,6 +586,16 @@
           <properties class="java.lang.NumberFormatException" package="java.lang" />
           <option name="timeStamp" value="106" />
         </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="111" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/Enum/GeoPoliticalZones.java</url>
+          <line>5</line>
+          <properties field="NORTH_WEST" class="Enum.GeoPoliticalZones" />
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

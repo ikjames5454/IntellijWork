@@ -9,7 +9,9 @@ public class ArrayLargestNumber {
             if ( number[num] > largestNumber){
 
                 largestNumber = number[num];
+
             }
+
         }
 
          System.out.println( "\n" + "the largest number is :" + largestNumber);
