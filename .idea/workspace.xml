@@ -5,35 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9785e63-6c59-4b9b-b1d9-46a72dbb07c4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Arrays/Array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/Arrays1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/Arrays3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter5/Compound.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter5/CompoundInterest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter5/Exercise12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter5/Exercise14.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter5/Interest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter7/example2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter7/examples.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chibuzor/Array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chibuzor/Problem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chibuzor/ProblemType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ChibuzorAssignment/Checkout.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ChibuzorAssignment/SchoolGrade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Enum/Activity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Enum/ActivityTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Enum/Exercise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Enum/ExerciseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Enum/GeoPoliticalZones.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Enum/GeoPoliticalZonesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercise2/PasswordValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ShoppingMall/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ShoppingMall/Customers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ShoppingMall/Users.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter5/Extremes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter5/Extremes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ChibuzorAssignment/ArrayLargestNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChibuzorAssignment/ArrayLargestNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ChibuzorAssignment/CardValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChibuzorAssignment/CardValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Enum/GeoPoliticalZones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Enum/GeoPoliticalZones.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Enum/GeoPoliticalZonesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Enum/GeoPoliticalZonesTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -301,7 +275,7 @@
       <workItem from="1691582786256" duration="17159000" />
       <workItem from="1691628172627" duration="3219000" />
       <workItem from="1691653696710" duration="12603000" />
-      <workItem from="1691688926228" duration="5610000" />
+      <workItem from="1691688926228" duration="16445000" />
     </task>
     <servers />
   </component>
@@ -590,12 +564,6 @@
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="111" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-field">
-          <url>file://$PROJECT_DIR$/src/Enum/GeoPoliticalZones.java</url>
-          <line>5</line>
-          <properties field="NORTH_WEST" class="Enum.GeoPoliticalZones" />
-          <option name="timeStamp" value="112" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
