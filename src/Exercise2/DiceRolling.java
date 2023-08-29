@@ -45,7 +45,7 @@ public class DiceRolling {
 
         }
         System.out.println("Random\t\tOccurrence of numbers");
-        System.out.printf("1\t\t%20d\n2\t\t%20d\n3\t\t%20d\n4\t\t%20d\n5\t\t%20d\n6\t\t%20d",random1,random2,random3,random4,random5,random6);
+        System.out.printf("1\t\t20%d\n2\t\t%20d\n3\t\t%20d\n4\t\t%20d\n5\t\t%20d\n6\t\t%20d",random1,random2,random3,random4,random5,random6);
 
     }
 }

@@ -29,8 +29,9 @@ public class Arrays2 {
             }
 
         }
+        System.out.println();
         for (int n = 0; n < arrays.length;n++){
-            System.out.println(arrays[n]);
+            System.out.print(arrays[n] + " ");
         }
 
    }

@@ -3,29 +3,29 @@ package ChibuzorAssignment;
 import java.util.Scanner;
 
 public class CardValidator {
-    private static final Scanner keyboard = new Scanner(System.in);
-    private static String masterCardType;
-    private static String visaCardType;
-    private static String americaExpressCardType;
-    private static String discoverCardType;
-    private static String verveCardType;
-    private static int doubleOfSecondDigit;
-    private static int sumOfOddPlaces;
+        private static final Scanner keyboard = new Scanner(System.in);
+        private static String masterCardType;
+        private static String visaCardType;
+        private static String americaExpressCardType;
+        private static String discoverCardType;
+        private static String verveCardType;
+        private static int doubleOfSecondDigit;
+        private static int sumOfOddPlaces;
 
-    public static void main(String[] args) {
+        public static void main(String[] args) {
 
-        System.out.println("Hello kindly enter card details to verify ");
-        Long cardNumber = keyboard.nextLong();
-        String converter = "";
-        String cardNumberHolder = cardNumber + converter;
-        int length = cardNumberHolder.length();
-        int sum;
-        String validity;
+            System.out.println("Hello kindly enter card details to verify ");
+            Long cardNumber = keyboard.nextLong();
+            String converter = "";
+            String cardNumberHolder = cardNumber + converter;
+            int length = cardNumberHolder.length();
+            int sum;
+            String validity;
 
-        int[] numberBank = new int[length];
-        for (int row = 0; row < cardNumberHolder.length(); row++) {
+            int[] numberBank = new int[length];
+            for (int row = 0; row < cardNumberHolder.length(); row++) {
 
-            numberBank[row] = Integer.parseInt(String.valueOf(cardNumberHolder.charAt(row)));
+                numberBank[row] = Integer.parseInt(String.valueOf(cardNumberHolder.charAt(row)));
 //            if (row == 0) {
 //                numberBank[0] = index;
 //            }
@@ -74,7 +74,7 @@ public class CardValidator {
 //            if (row == 15) {
 //                numberBank[15] = index;
 //            }
-       }
+            }
 
             if (numberBank[0] == 4) {
                 visaCardType = "VisaCard";
@@ -139,5 +139,4 @@ public class CardValidator {
             System.out.println("***Credit Card Validity Status: " + validity);
         }
     }
-
 

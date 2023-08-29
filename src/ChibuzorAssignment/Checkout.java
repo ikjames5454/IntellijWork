@@ -26,7 +26,7 @@ public class Checkout {
     private static String amounts;
     private static double myBalance;
 
-private static Object date = LocalDate.now();
+    private static Object date = LocalDate.now();
     private static String cashierName;
     private static String name;
     public static void main(String[] args) {
@@ -36,7 +36,7 @@ private static Object date = LocalDate.now();
     }
     public static void customersName(){
         out.println("What is the customer's name: ");
-         name = input.nextLine();
+        name = input.nextLine();
         if (name.matches("^[a-zA-Z ]+$")) {
 
         }
@@ -102,7 +102,7 @@ private static Object date = LocalDate.now();
     }
     public static void cashiersName(){
         out.println("What is your name: ");
-         cashierName = input.nextLine();
+        cashierName = input.nextLine();
         if (cashierName.matches("^[a-zA-Z ]+$")) {
             discount();
 
@@ -139,7 +139,7 @@ private static Object date = LocalDate.now();
         out.println("Date: " + date + " " + time);
         out.println("cashier: " + cashierName);
         out.println("customer's Name: " + name);
-    output2();
+        output2();
     }
     public static void output2(){
         out.println("=".repeat(60));
@@ -174,9 +174,9 @@ private static Object date = LocalDate.now();
     }
 
     public static void output4(){
-    out.println("This is not a receipt kindly pay: " + billsTotal);
-    out.println("=".repeat(60));
-    payment();
+        out.println("This is not a receipt kindly pay: " + billsTotal);
+        out.println("=".repeat(60));
+        payment();
     }
     public static void payment(){
         out.println();

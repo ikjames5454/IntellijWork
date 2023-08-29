@@ -5,9 +5,72 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9785e63-6c59-4b9b-b1d9-46a72dbb07c4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Arrays/Arrays2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArrayList/Listing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/Arraysss.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/RemoveEven.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/ReverseArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/SortedString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/Swap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/Swap2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/duplicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/odd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/question3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/reversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter5/Asterisk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter5/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ChibuzorAssignment/ArrayOfArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ChibuzorAssignment/ArrayOfLargestNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ChibuzorAssignment/Concatenate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise2/NameWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise2/nameEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercises/Asterisk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercises/Entry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercises/RegularExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercises/Reverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Hackerthon/Methods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Hackerthon/NameValidation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Hackerthon/Parallelogram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Hackerthon/Patterns.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Hackerthon/Prime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Hackerthon/PrimeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Hackerthon/UserInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOP/Name.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOP/Num.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOP/Printer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOP/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tdd/Accounts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tdd/AccountsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tdd/Bank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tdd/BankTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tdd/Diary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tdd/DiaryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tdd/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tdd/RemoveArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tdd/RemoveArraysTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tdd/Swaps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tdd/SwapsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arrays/Arrays2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/Arrays2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arrays/Arrays3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/Arrays3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChibuzorAssignment/ArrayLargestNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChibuzorAssignment/ArrayOfArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChibuzorAssignment/CardValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChibuzorAssignment/CardValidator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ChibuzorAssignment/Checkout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChibuzorAssignment/Checkout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChibuzorAssignment/Concatenation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChibuzorAssignment/Element.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChibuzorAssignment/Element.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChibuzorAssignment/EvenList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChibuzorAssignment/EvenList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChibuzorAssignment/OddList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChibuzorAssignment/Palindrome.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChibuzorAssignment/PersonalityTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChibuzorAssignment/Reverse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChibuzorAssignment/SchoolGrade.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChibuzorAssignment/SchoolManagement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChibuzorAssignment/SchoolSystem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChibuzorAssignment/Sums.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChibuzorAssignment/Total.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exercise2/DiceRolling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercise2/DiceRolling.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ConcatenationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ConcatenationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/tdd/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/tdd/Phone.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,8 +129,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="" />
       <recent name="tdd" />
+      <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/tdd" />
@@ -78,10 +141,13 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="tdd" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Chapter5" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Checkout">
-    <configuration name="Arrays1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.Arrays1" />
+  <component name="RunManager" selected="JUnit.BankTest.bankCanRegisterCustomers">
+    <configuration name="Arraysss" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.Arraysss" />
       <module name="myWork" />
       <extension name="coverage">
         <pattern>
@@ -93,8 +159,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Arrays2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.Arrays2" />
+    <configuration name="Swap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.Swap" />
       <module name="myWork" />
       <extension name="coverage">
         <pattern>
@@ -106,8 +172,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Arrays3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.Arrays3" />
+    <configuration name="reversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.reversal" />
       <module name="myWork" />
       <extension name="coverage">
         <pattern>
@@ -119,39 +185,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Checkout" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ChibuzorAssignment.Checkout" />
+    <configuration name="BankTest.bankCanRegisterCustomers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ChibuzorAssignment.*" />
+          <option name="PATTERN" value="tdd.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="tdd" />
+      <option name="MAIN_CLASS_NAME" value="tdd.BankTest" />
+      <option name="METHOD_NAME" value="bankCanRegisterCustomers" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Reverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ChibuzorAssignment.Reverse" />
+    <configuration name="BankTest.testThatICanBeDepositIntoBank" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ChibuzorAssignment.*" />
+          <option name="PATTERN" value="tdd.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="tdd" />
+      <option name="MAIN_CLASS_NAME" value="tdd.BankTest" />
+      <option name="METHOD_NAME" value="testThatICanBeDepositIntoBank" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Checkout" />
-        <item itemvalue="Application.Arrays2" />
-        <item itemvalue="Application.Reverse" />
-        <item itemvalue="Application.Arrays3" />
-        <item itemvalue="Application.Arrays1" />
+        <item itemvalue="JUnit.BankTest.bankCanRegisterCustomers" />
+        <item itemvalue="JUnit.BankTest.testThatICanBeDepositIntoBank" />
+        <item itemvalue="Application.Arraysss" />
+        <item itemvalue="Application.Swap" />
+        <item itemvalue="Application.reversal" />
       </list>
     </recent_temporary>
   </component>
@@ -283,7 +355,32 @@
       <workItem from="1692100999873" duration="7418000" />
       <workItem from="1692175323430" duration="107000" />
       <workItem from="1692187440109" duration="484000" />
-      <workItem from="1692200290029" duration="1108000" />
+      <workItem from="1692200290029" duration="3616000" />
+      <workItem from="1692212838819" duration="1147000" />
+      <workItem from="1692254944040" duration="6392000" />
+      <workItem from="1692278476181" duration="323000" />
+      <workItem from="1692323402074" duration="1400000" />
+      <workItem from="1692412284977" duration="6074000" />
+      <workItem from="1692436494701" duration="1684000" />
+      <workItem from="1692611383477" duration="660000" />
+      <workItem from="1692618227404" duration="10435000" />
+      <workItem from="1692779170403" duration="18754000" />
+      <workItem from="1692860854499" duration="22080000" />
+      <workItem from="1692887889314" duration="1524000" />
+      <workItem from="1692894081624" duration="10096000" />
+      <workItem from="1692906345922" duration="3212000" />
+      <workItem from="1692917612584" duration="3848000" />
+      <workItem from="1692959301025" duration="626000" />
+      <workItem from="1692963579453" duration="9404000" />
+      <workItem from="1692986670209" duration="1950000" />
+      <workItem from="1692998893635" duration="7497000" />
+      <workItem from="1693039380336" duration="15376000" />
+      <workItem from="1693166877485" duration="705000" />
+      <workItem from="1693188305197" duration="8482000" />
+      <workItem from="1693208805694" duration="8552000" />
+      <workItem from="1693226507992" duration="12858000" />
+      <workItem from="1693293497798" duration="1083000" />
+      <workItem from="1693314273838" duration="11899000" />
     </task>
     <servers />
   </component>
@@ -529,6 +626,33 @@
           </properties>
           <option name="timeStamp" value="110" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/test/tdd/AccountsTest.java</url>
+          <line>15</line>
+          <properties class="tdd.AccountsTest" method="checkBalanceWithWrongPin">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/test/tdd/BankTest.java</url>
+          <line>17</line>
+          <properties class="tdd.BankTest" method="testThatICanBeDepositIntoBank">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/test/tdd/BankTest.java</url>
+          <line>29</line>
+          <properties class="tdd.BankTest" method="testThatICanBeWithdrawFromBank">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/test/tdd/AccountTest.java</url>
           <line>32</line>
@@ -563,6 +687,21 @@
           <url>file://$PROJECT_DIR$/src/ChibuzorAssignment/CardValidator.java</url>
           <line>4</line>
           <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/tdd/SwapsTest.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/tdd/RemoveArraysTest.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/tdd/RemoveArraysTest.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="116" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.NumberFormatException" package="java.lang" />

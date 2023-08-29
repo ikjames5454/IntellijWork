@@ -1,6 +1,6 @@
 package ChibuzorAssignment;
 
-public class ArrayOfArray {
+public class ArrayOfArrays {
     public static void main(String[] args) {
         String[][] object = new String[][]{{"x", "o", "x"}, {"o", "o", "x"}, {"o", "x", "x"}};
 
@@ -9,19 +9,19 @@ public class ArrayOfArray {
                 if (object[number][num].equals("x")) {
                     object[number][num] = "1";
                 }
-                        if (object[number][num].equals("o")) {
-                            object[number][num] = "0";
-                        }
-
-                       System.out.print(object[number][num] + " ");
-
+                if (object[number][num].equals("o")) {
+                    object[number][num] = "0";
                 }
+
+                System.out.print(object[number][num] + " ");
+
+            }
 
 
             System.out.println();
 
-            }
-
         }
+
     }
 
+}

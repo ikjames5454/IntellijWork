@@ -23,6 +23,9 @@ public class Phone {
 
 
     }
+    public Diary diary(){
+        return new Diary("user","pin");
+    }
     public String getMainMenu(){
         return mainMenu;
 
