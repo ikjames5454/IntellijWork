@@ -1,8 +1,8 @@
 package tdd;
 
 public class Accounts {
-    private int balance;
-   private final String PIN;
+    private double balance;
+   private String PIN;
    private String accountNumber;
    private String accountName;
     private Object account;
@@ -14,7 +14,7 @@ public class Accounts {
     }
 
 
-    public int checkBalance(String pin) {
+    public double checkBalance(String pin) {
         validation(pin);
         return balance;
     }
@@ -31,7 +31,7 @@ public class Accounts {
     }
 
 
-    public void withDraw(int amount) {
+    public void withDraw(double amount,String pin) {
         if ( amount > 0 ){
             if ( amount < balance) {
                     balance = balance - amount;
@@ -48,5 +48,13 @@ public class Accounts {
 
     public String getAccountNumber() {
         return accountNumber;
+    }
+
+    public String canChangePin(String oldPin, String newPin) {
+        if (this.PIN.equals(oldPin)){
+            this.PIN = newPin;
+        }
+        return newPin;
+
     }
 }

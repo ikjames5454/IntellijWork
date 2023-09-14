@@ -22,7 +22,7 @@ public class Swap2 {
 //            System.out.print(a + " ");
 //        }
         int temp = 0;
-        for ( int n = 2; n < swapping.length/2; n++){
+        for ( int n = 0; n < swapping.length/2; n++){
             temp = swapping[n];
             swapping[n] = swapping[n+1];
             swapping[n+1] = temp;

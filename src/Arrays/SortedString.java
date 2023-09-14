@@ -1,11 +1,13 @@
 package Arrays;
 
+import java.util.Arrays;
+
 public class SortedString {
     public static void main(String[] args) {
         String name = "Pension";
         String convert = name.toLowerCase();
         char[] str = convert.toCharArray();
-        char temp;
+        System.out.println(Arrays.toString(str));
 //        for (int a = 0; a < str.length-1; a++){
 //            for (int b = a; b < str.length; b++){
 //                if ( str[a] > str[b]){
@@ -28,6 +30,6 @@ public class SortedString {
             a++;
             b--;
         }
-        System.out.println(str);
+        System.out.println(Arrays.toString(str));
     }
 }

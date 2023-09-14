@@ -7,6 +7,8 @@ public class PasswordValidator {
     private final  Scanner input = new Scanner(System.in);
     public static void main(String[] args) {
         PasswordValidator validate = new PasswordValidator();
+        System.out.println("Enter a password that must be at least greater than eight,contain one uppercase character,lowercase character,number and special character");
+
         validate.collectInput();
 
     }

@@ -1,5 +1,6 @@
 package tdd;
 
+import Exercises.Entry;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -15,37 +16,54 @@ public class DiaryTest {
     public void testThatDairyCanLock(){
         Diary diary = new Diary("userName","pin");
         diary.lock();
-        assertTrue(diary.isLock("pin"));
-        diary.lock();
-        assertFalse(diary.isLock("pin"));
-        diary.lock();
-        assertTrue(diary.isLock("pin"));
+        assertTrue(diary.isLock());
     }
     @Test
-    public void testThatDiaryCanBeCreated(){
+    public void testThatDiaryCanUnlock(){
         Diary diary = new Diary("userName","pin");
         diary.lock();
-        assertTrue(diary.isLock("pin"));
+        assertTrue(diary.isLock());
         diary.lock();
-        assertFalse(diary.isLock("pin"));
-        diary.entry(1,"God is good","Trust in the Lord with all your heart");
-        diary.array(1);
-        assertEquals("God is good",diary.array(1).getTitle());
-        assertEquals("Trust in the Lord with all your heart",diary.array(1).getBody());
+        assertTrue(diary.unLock("pin"));
+
+    }
+    @Test
+    public void testThatDiaryCanBeEnteredAndFindEntryByID(){
+        Diary diary = new Diary("userName","pin");
+        diary.lock();
+        assertTrue(diary.isLock());
+        diary.lock();
+        assertTrue(diary.unLock("pin"));
+        diary.entry("God is good","Trust in the Lord with all your heart");
+        diary.findEntry(1);
+        assertEquals("God is good",diary.findEntry(1).getTitle());
+        assertEquals("Trust in the Lord with all your heart",diary.findEntry(1).getBody());
     }
     @Test
     public void testThatDiaryCanDeleteEntry(){
         Diary diary = new Diary("userName","pin");
         diary.lock();
-        assertTrue(diary.isLock("pin"));
+        assertTrue(diary.isLock());
         diary.lock();
-        assertFalse(diary.isLock("pin"));
-        diary.entry(1,"God is good","Trust in the Lord with all your heart");
-        diary.array(1);
-        assertEquals("God is good",diary.array(1).getTitle());
+        assertTrue(diary.unLock("pin"));
+        diary.entry("God is good","Trust in the Lord with all your heart");
+        diary.findEntry(1);
+        assertEquals("God is good",diary.findEntry(1).getTitle());
         diary.remove(1);
-        assertNull(diary.array(1));
+        assertNull(diary.findEntry(1));
 
+
+    }
+    @Test
+    public void testThatICanUpdateMyDiary(){
+        Diary diary = new Diary("userName","pin");
+        diary.lock();
+        assertTrue(diary.isLock());
+        diary.lock();
+        assertTrue(diary.unLock("pin"));
+        diary.entry("God is good","Trust in the Lord with all your heart");
+        diary.upDateEntry(1, "God","i trust in you");
+        assertEquals(new Entry(1, "God","i trust in you").getEntry(),diary.findEntry(1).getEntry());
 
     }
 }

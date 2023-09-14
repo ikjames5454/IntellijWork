@@ -16,10 +16,11 @@ public class Diary {
         this.pin = pin;
         entries = new ArrayList<>();
     }
-    public ArrayList<Entry> list(){
-        return entries;
+    public int generateList(){
+
+        return entries.size() + 1;
     }
-    public Entry array(int id){
+    public Entry findEntry(int id){
         for (Entry entry :
                 entries) {
             if (entry.getId() == id)
@@ -27,27 +28,56 @@ public class Diary {
         }
         return null;
     }
-    public void entry(int id,String title, String body){
-        Entry entry = new Entry(id,title,body);
+    public void entry(String title, String body){
+        Entry entry = new Entry(generateList(),title,body);
         entries.add(entry);
     }
 
-    public void lock() {
 
-        this.isLock =! isLock;
+    public void lock() {
     }
 
-    public boolean isLock(String pin) {
-      if (this.pin.equals(pin)){
-          return isLock;
-      }
-         throw new NullPointerException("wrong pin");
+    public boolean isLock() {
+          return true;
+
 
     }
 
     public void remove(int id) {
-       if (array(id) != null){
-           entries.remove(array(id));
-       };
+        if (findEntry(id) != null) {
+            entries.remove(findEntry(id));
         }
+    }
+
+    public String canGetDairyUsername(){
+           return userName;
+
+        }
+
+    public boolean unLock(String pin) {
+            if (!this.pin.equals(pin)){
+                throw new NullPointerException("wrong pin");
+            }
+
+            return isLock = true;
+
+    }
+
+    public void upDateEntry(int id,String title, String body) {
+        Entry entry = findEntry(id);
+        entry.setId(id);
+        entry.setTitle(title);
+        entry.setBody(body);
+    }
+    public String getMyDiaryName(){
+        return userName;
+    }
+    public String MyDiaryPassword() {
+            return pin;
+    }
+
+    public String lockDiary(){
+        return "" + (int) (Math.random() * 10000);
+    }
+
 }

@@ -38,6 +38,10 @@ public class Entry {
         return body;
     }
 
+    public String getEntry(){
+        return id + " " + title + " " + body;
+    }
+
 
 
 

@@ -22,6 +22,7 @@ public class Bank {
     }
 
     public String generateAccountNumber(){
+//        return "6" + (int) (Math.random() * 10000) + (int) (Math.random() * 10000) * 100000;
         return account.size() + 1 + "";
 
     }
@@ -53,7 +54,15 @@ public class Bank {
 
     public void canWithdraw(int amount, String accountNumber, String pin) {
         if ( amount > 0){
-            findAccountNumber(accountNumber).withDraw(amount);
+            findAccountNumber(accountNumber).withDraw(amount,pin);
         }
+    }
+
+    public void canTransfer(double amount,String fromAccount,String toAccount, String pin) {
+        Accounts accountsSender = findAccountNumber(fromAccount);
+        accountsSender.withDraw( amount,pin);
+        Accounts accountsReciever = findAccountNumber(toAccount);
+        accountsReciever.deposit((int) amount);
+
     }
 }

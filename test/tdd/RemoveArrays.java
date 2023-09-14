@@ -1,6 +1,17 @@
 package tdd;
 
 public class RemoveArrays {
+    public static int[] iCanPosition(int[] element) {
+        position(element, 4, 60);
+        return element;
+    }
+    public static void position(int[] a, int position, int vr){
+        for (int b = a.length-1; b > position; b--){
+            a[b] = a[b-1];
+        }
+        a[position] = vr;
+    }
+
     public int[] reverseArray(int[] element) {
         int oddNumbers = 0;
         int[] oddCollector = null;
@@ -100,5 +111,18 @@ public class RemoveArrays {
         }
 
         return element;
+    }
+
+    public static int[] iCanAdd(int[] element) {
+        remove(element, 67);
+        remove(element, 967);
+        remove(element, 7);
+        return element;
+    }
+    public static void remove(int[] a, int vr){
+        for ( int b = a.length-1; b > 0; b--){
+            a[b] = a[b-1];
+        }
+        a[0] = vr;
     }
 }

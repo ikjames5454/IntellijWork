@@ -57,6 +57,23 @@ public class RemoveArraysTest {
 
 
     }
+    @Test
+    public void ICanAdd(){
+        RemoveArrays removeArrays = new RemoveArrays();
+        int[] actual = RemoveArrays.iCanAdd( new int[]{22, 41, 15, 8, 2, 1,7,8});
+        int[] expected = {7,967,67,22, 41, 15, 8, 2,};
+        assertArrayEquals(actual, expected);
+
+    }
+
+    @Test
+    public void position(){
+        RemoveArrays removeArrays = new RemoveArrays();
+        int[] actual = RemoveArrays.iCanPosition( new int[]{22, 41, 15, 8, 2, 1,7,8});
+        int[] expected = {22, 41, 15, 8, 60, 2, 1,7};
+        assertArrayEquals(actual, expected);
+
+    }
 
 
 
