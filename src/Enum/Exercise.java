@@ -3,7 +3,7 @@ package Enum;
 public enum Exercise {
     JUMPING("10minute"),
     SQUATTING("15Minute"),
-    STRETCHING(),
+    STRETCHING("5minute"),
     BOXING("18minute"),
     ;
     private String time;
@@ -16,9 +16,9 @@ public enum Exercise {
             System.out.println(this.name());
 
         }
-        Exercise() {
-            this.time = "5minute";
-        }
+//        Exercise() {
+//            this.time = "5minute";
+//        }
 
         public void setTime (String time){
             this.time = time;

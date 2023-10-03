@@ -5,39 +5,62 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9785e63-6c59-4b9b-b1d9-46a72dbb07c4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ArrayExercise/Array1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArrayExercise/Array2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArrayExercise/Array3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArrayExercise/Array4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArrayExercise/Array5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArrayExercise/Array6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArrayExercise/Array7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArrayExercise/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArrayExercise/Multiple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ChibuzorAssignment/MBTIPersonalityQuestionnaire.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exception/Exception4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exception/ExceptionHandling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exception/ExceptionHandling2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exception/ExceptionHandling3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exception/MyException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOP/Extended.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOP/Pane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOP/cast.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/tdd/DairiesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/tdd/DairyMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/tdd/Diaries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArrayExercise/Array8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArrayExercise/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArrayExercise/Delete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArrayExercise/ReverseString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/NonDuplicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/OddNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/arrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Enum/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Enum/BookTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise2/Time.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise2/TimeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise2/TimesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interface/BoyFriend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interface/ChewingGum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interface/GirlFriend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interface/SugarDaddy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interface/YahooBoy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Regex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strings/Input.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strings/Name.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tdd/NamesInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tdd/ReverseTo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tdd/AppInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tdd/AppInfoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tdd/BankMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tdd/ContactAppMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tdd/CustomerInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tdd/GirlFriendTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tdd/Menstrual.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tdd/MenstrualApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tdd/MenstrualTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tdd/NameTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tdd/NamesInputTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tdd/PeopleInfoCapture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tdd/PeopleInfoCaptureTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tdd/ReverseToTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tdd/Testing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tdd/TestingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tdd/Times.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tdd/TimesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Arrays/SortedString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/SortedString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Arrays/Swap2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/Swap2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arrays/RemoveEven.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/RemoveEven.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Arrays/duplicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/duplicate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exercise2/PasswordValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercise2/PasswordValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chibuzor/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chibuzor/Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Enum/ActivityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Enum/ActivityTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Enum/Exercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Enum/Exercise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Enum/ExerciseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Enum/ExerciseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Exercises/Entry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercises/Entry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOP/Name.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOP/Name.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOP/Num.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOP/Num.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/tdd/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/tdd/Account.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/tdd/Accounts.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/tdd/Accounts.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/tdd/AccountsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/tdd/AccountsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/tdd/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/tdd/Bank.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/tdd/BankTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/tdd/BankTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/tdd/DairiesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/tdd/DairiesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/tdd/DairyMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/tdd/DairyMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/tdd/Diaries.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/tdd/Diaries.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/tdd/Diary.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/tdd/Diary.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/tdd/DiaryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/tdd/DiaryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/tdd/RemoveArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/tdd/RemoveArrays.java" afterDir="false" />
@@ -54,8 +77,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -89,6 +113,8 @@
     &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
     &quot;last_directory_selection&quot;: &quot;/home/james/Document/myWork/test/tdd&quot;,
     &quot;last_opened_file_path&quot;: &quot;/home/james/Document/myWork/tdd&quot;,
@@ -115,20 +141,26 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="tdd" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
       <recent name="tdd" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Chapter5" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DairyMain">
-    <configuration name="Array7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayExercise.Array7" />
+  <component name="RunManager" selected="Application.ContactAppMain">
+    <configuration name="ContactAppMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tdd.ContactAppMain" />
       <module name="myWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ArrayExercise.*" />
+          <option name="PATTERN" value="tdd.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,7 +181,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DiaryTest.testThatDiaryCanBeEnteredAndFindEntryByID" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MenstrualApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tdd.MenstrualApp" />
       <module name="myWork" />
       <extension name="coverage">
         <pattern>
@@ -157,15 +190,12 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tdd" />
-      <option name="MAIN_CLASS_NAME" value="tdd.DiaryTest" />
-      <option name="METHOD_NAME" value="testThatDiaryCanBeEnteredAndFindEntryByID" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DiaryTest.testThatDiaryCanUnlock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Testing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tdd.Testing" />
       <module name="myWork" />
       <extension name="coverage">
         <pattern>
@@ -173,15 +203,11 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tdd" />
-      <option name="MAIN_CLASS_NAME" value="tdd.DiaryTest" />
-      <option name="METHOD_NAME" value="testThatDiaryCanUnlock" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DiaryTest.testThatIHaveADiary" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BankTest.bankCanRegisterCustomers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myWork" />
       <extension name="coverage">
         <pattern>
@@ -190,8 +216,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tdd" />
-      <option name="MAIN_CLASS_NAME" value="tdd.DiaryTest" />
-      <option name="METHOD_NAME" value="testThatIHaveADiary" />
+      <option name="MAIN_CLASS_NAME" value="tdd.BankTest" />
+      <option name="METHOD_NAME" value="bankCanRegisterCustomers" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -199,11 +225,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ContactAppMain" />
         <item itemvalue="Application.DairyMain" />
-        <item itemvalue="JUnit.DiaryTest.testThatIHaveADiary" />
-        <item itemvalue="JUnit.DiaryTest.testThatDiaryCanBeEnteredAndFindEntryByID" />
-        <item itemvalue="JUnit.DiaryTest.testThatDiaryCanUnlock" />
-        <item itemvalue="Application.Array7" />
+        <item itemvalue="Application.MenstrualApp" />
+        <item itemvalue="Application.Testing" />
+        <item itemvalue="JUnit.BankTest.bankCanRegisterCustomers" />
       </list>
     </recent_temporary>
   </component>
@@ -396,7 +422,42 @@
       <workItem from="1694593145455" duration="8151000" />
       <workItem from="1694637068634" duration="10363000" />
       <workItem from="1694647457072" duration="3009000" />
-      <workItem from="1694675665461" duration="3506000" />
+      <workItem from="1694675665461" duration="11323000" />
+      <workItem from="1694796228874" duration="3857000" />
+      <workItem from="1694806209015" duration="5487000" />
+      <workItem from="1694852676197" duration="4092000" />
+      <workItem from="1694860332106" duration="2188000" />
+      <workItem from="1694965799679" duration="4326000" />
+      <workItem from="1694973639391" duration="14285000" />
+      <workItem from="1695027187755" duration="14129000" />
+      <workItem from="1695075186764" duration="1922000" />
+      <workItem from="1695126988512" duration="5593000" />
+      <workItem from="1695146230155" duration="649000" />
+      <workItem from="1695233399789" duration="646000" />
+      <workItem from="1695284123466" duration="6359000" />
+      <workItem from="1695300583095" duration="3211000" />
+      <workItem from="1695311800391" duration="14677000" />
+      <workItem from="1695335564198" duration="7956000" />
+      <workItem from="1695376714288" duration="2835000" />
+      <workItem from="1695386573640" duration="3276000" />
+      <workItem from="1695392879336" duration="10262000" />
+      <workItem from="1695677186576" duration="6155000" />
+      <workItem from="1695718734439" duration="5252000" />
+      <workItem from="1695726875265" duration="1267000" />
+      <workItem from="1695732464748" duration="13582000" />
+      <workItem from="1695800709291" duration="836000" />
+      <workItem from="1695803140147" duration="10304000" />
+      <workItem from="1695816317007" duration="33633000" />
+      <workItem from="1695888292575" duration="4442000" />
+      <workItem from="1695919272911" duration="2828000" />
+      <workItem from="1695971356600" duration="20075000" />
+      <workItem from="1696056750608" duration="7595000" />
+      <workItem from="1696182243604" duration="866000" />
+      <workItem from="1696185591515" duration="1360000" />
+      <workItem from="1696191841630" duration="4237000" />
+      <workItem from="1696238230628" duration="14743000" />
+      <workItem from="1696285082113" duration="14655000" />
+      <workItem from="1696316938530" duration="5257000" />
     </task>
     <servers />
   </component>
@@ -647,17 +708,8 @@
           <option name="timeStamp" value="110" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/test/tdd/BankTest.java</url>
-          <line>47</line>
-          <properties class="tdd.BankTest" method="testThatICanTransferFromOneAccountToAnother">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="120" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/test/tdd/DairiesTest.java</url>
-          <line>28</line>
+          <line>27</line>
           <properties class="tdd.DairiesTest" method="test_i_can_delete_dairy_from_dairies">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
@@ -675,12 +727,39 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/test/tdd/RemoveArraysTest.java</url>
-          <line>60</line>
+          <line>70</line>
           <properties class="tdd.RemoveArraysTest" method="ICanAdd">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/test/tdd/TimesTest.java</url>
+          <line>10</line>
+          <properties class="tdd.TimesTest" method="test_can_validateTime">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Enum/BookTest.java</url>
+          <line>3</line>
+          <properties class="Enum.BookTest" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/test/tdd/PeopleInfoCaptureTest.java</url>
+          <line>46</line>
+          <properties class="tdd.PeopleInfoCaptureTest" method="testICanUpdateEntry">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="128" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/test/tdd/AccountTest.java</url>
@@ -724,18 +803,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/test/tdd/RemoveArraysTest.java</url>
-          <line>33</line>
+          <line>40</line>
           <option name="timeStamp" value="114" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/test/tdd/RemoveArraysTest.java</url>
-          <line>49</line>
+          <line>58</line>
           <option name="timeStamp" value="116" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/test/tdd/DairyMain.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="125" />
+          <url>file://$PROJECT_DIR$/test/tdd/DiaryTest.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="129" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.NumberFormatException" package="java.lang" />

@@ -1,5 +1,7 @@
 package tdd;
 
+import java.util.Objects;
+
 public class Accounts {
     private double balance;
    private String PIN;
@@ -8,7 +10,7 @@ public class Accounts {
     private Object account;
 
     public Accounts(String accountNumber, String accountName, String pin){
-        this.PIN = pin;
+        PIN = pin;
         this.accountNumber = accountNumber;
         this.accountName = accountName;
     }
@@ -18,31 +20,43 @@ public class Accounts {
         validation(pin);
         return balance;
     }
-    public void validation(String pin){
-        if (this.PIN != pin) throw new NullPointerException("wrong pin");
-
+    public void validation(String pin) {
+        if (!Objects.equals(PIN, pin)) {
+            throw new NullPointerException("wrong pin");
+        }
     }
 
-    public void deposit(int amount) {
+    public void deposit(double amount) {
         if ( amount > 0 ) {
             balance = balance + amount;
         }
+        else {
+            throw new NullPointerException("invalid amount");
+        }
+
 
     }
 
 
     public void withDraw(double amount,String pin) {
+        validation(pin);
         if ( amount > 0 ){
             if ( amount < balance) {
                     balance = balance - amount;
 
             }
+            else {
+                throw new NullPointerException("insufficient balance");
+            }
+        }
+        else {
+            throw new NullPointerException("invalid amount");
         }
     }
 
     public String canGetAccount() {
 
-        return accountNumber + " " + accountName + " " +PIN;
+        return "AccountName: " + accountName + "\n" + "AccountNumber" + accountNumber + "\n" + "Pin: " + PIN;
     }
 
 

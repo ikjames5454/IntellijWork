@@ -9,7 +9,7 @@ public class Diary {
     private final String userName;
     private final String pin;
     private boolean isLock;
-    private ArrayList<Entry>entries;
+    private final ArrayList<Entry>entries;
 
     public Diary(String UserName, String pin) {
         this.userName = UserName;
@@ -17,8 +17,8 @@ public class Diary {
         entries = new ArrayList<>();
     }
     public int generateList(){
-
-        return entries.size() + 1;
+       return  (int) (Math.random() * 10000);
+//       return entries.size() + 1;
     }
     public Entry findEntry(int id){
         for (Entry entry :
@@ -26,19 +26,22 @@ public class Diary {
             if (entry.getId() == id)
                 return entry;
         }
-        return null;
+        throw  new NullPointerException("NO ENTRIES MATCHING ID " + id + "found");
     }
-    public void entry(String title, String body){
-        Entry entry = new Entry(generateList(),title,body);
+    public int createEntry(String title, String body){
+        int idNumber = generateList();
+        Entry entry = new Entry(idNumber,title,body);
         entries.add(entry);
+        return idNumber;
     }
 
 
     public void lock() {
+        isLock = true;
     }
 
     public boolean isLock() {
-          return true;
+          return isLock;
 
 
     }
@@ -47,6 +50,9 @@ public class Diary {
         if (findEntry(id) != null) {
             entries.remove(findEntry(id));
         }
+        else{
+            throw new NullPointerException("no entry found");
+        }
     }
 
     public String canGetDairyUsername(){
@@ -54,12 +60,12 @@ public class Diary {
 
         }
 
-    public boolean unLock(String pin) {
+    public void unLock(String pin) {
             if (!this.pin.equals(pin)){
                 throw new NullPointerException("wrong pin");
             }
 
-            return isLock = true;
+            isLock = false;
 
     }
 
@@ -72,12 +78,12 @@ public class Diary {
     public String getMyDiaryName(){
         return userName;
     }
-    public String MyDiaryPassword() {
+
+
+    public String myDiaryPassword() {
             return pin;
     }
 
-    public String lockDiary(){
-        return "" + (int) (Math.random() * 10000);
-    }
+
 
 }

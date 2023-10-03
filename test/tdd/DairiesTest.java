@@ -2,8 +2,8 @@ package tdd;
 
 import org.junit.Test;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertNull;
+import static org.junit.Assert.assertThrows;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class DairiesTest {
     @Test
@@ -13,7 +13,6 @@ public class DairiesTest {
         diaries.findByUsername("myDiary");
         assertEquals("myDiary", diaries.findByUsername("myDiary").getMyDiaryName());
         diaries.add("jamesBond", "1234");
-        diaries.findByUsername("jamesBond");
         assertEquals("jamesBond", diaries.findByUsername("jamesBond").getMyDiaryName());
     }
 
@@ -32,7 +31,8 @@ public class DairiesTest {
         diaries.findByUsername("jamesBond");
         assertEquals("jamesBond", diaries.findByUsername("jamesBond").getMyDiaryName());
         diaries.delete("jamesBond", "1234");
-        assertNull(diaries.findByUsername("jamesBond"));
+        assertThrows(NullPointerException.class, ()->diaries.findByUsername("jamesBond"));
+//        assertNull(diaries.findByUsername("jamesBond"));
     }
 
 

@@ -14,23 +14,21 @@ public class Bank {
     }
 
 
-    public void canRegister(String firstName, String secondName, String pin) {
+    public String canRegister(String firstName, String secondName, String pin) {
         String accountName = firstName + " " + secondName;
-        Accounts accounts = new Accounts(generateAccountNumber(),accountName,pin);
+        String accountNumber = generateAccountNumber();
+        Accounts accounts = new Accounts(accountNumber,accountName,pin);
         account.add(accounts);
-
+        return accountNumber;
     }
 
     public String generateAccountNumber(){
-//        return "6" + (int) (Math.random() * 10000) + (int) (Math.random() * 10000) * 100000;
-        return account.size() + 1 + "";
+      return "6" + (int) (Math.random() * 100000) + (int) (Math.random() * 10000) ;
+//        return account.size() + 1 + "";
 
     }
 
 
-    public String getFullName() {
-        return fullName;
-    }
 
     public Accounts findAccountNumber(String accountNumber) {
         for (Accounts accounts : account ) {
@@ -43,9 +41,9 @@ public class Bank {
 
 
     public void canDeposit(int amount,String accountNumber) {
-        if ( amount > 0 ){
+
             findAccountNumber(accountNumber).deposit(amount);
-        }
+
     }
 
     public double checkBalance(String accountNumber, String pin) {
@@ -53,16 +51,12 @@ public class Bank {
     }
 
     public void canWithdraw(int amount, String accountNumber, String pin) {
-        if ( amount > 0){
             findAccountNumber(accountNumber).withDraw(amount,pin);
-        }
     }
 
     public void canTransfer(double amount,String fromAccount,String toAccount, String pin) {
-        Accounts accountsSender = findAccountNumber(fromAccount);
-        accountsSender.withDraw( amount,pin);
-        Accounts accountsReciever = findAccountNumber(toAccount);
-        accountsReciever.deposit((int) amount);
+        findAccountNumber(fromAccount).withDraw( amount,pin);
+        findAccountNumber(toAccount).deposit(amount);
 
     }
 }

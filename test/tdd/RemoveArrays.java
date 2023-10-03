@@ -1,8 +1,11 @@
 package tdd;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class RemoveArrays {
-    public static int[] iCanPosition(int[] element) {
-        position(element, 4, 60);
+    public static int[] iCanPosition(int[] element,int position, int value) {
+        position(element, position,value);
         return element;
     }
     public static void position(int[] a, int position, int vr){
@@ -62,9 +65,9 @@ public class RemoveArrays {
             element[r] = element[element.length - r - 1];
             element[element.length - r - 1] = temp;
         }
-        for ( int n : element){
-
-        }
+//        for ( int n : element){
+//
+//        }
         return element;
     }
 
@@ -75,9 +78,9 @@ public class RemoveArrays {
             element[n] = element[n + 1];
             element[n + 1] = temp;
         }
-        for ( int num : element){
-
-        }
+//        for ( int num : element){
+//
+//        }
         return element;
     }
 
@@ -124,5 +127,133 @@ public class RemoveArrays {
             a[b] = a[b-1];
         }
         a[0] = vr;
+    }
+
+    public int[] findLargestNumber(int[] element) {
+        int largest = element[0];
+        for ( int a = 0; a < element.length; a++){
+            if (element[a] > largest){
+                largest = element[a];
+            }
+
+        }
+        return new int[]{largest};
+    }
+
+    public int findSmallestNumber(int[] array) {
+        int smallest = array[0];
+        for ( int a = 0; a < array.length; a++){
+            if (array[a] < smallest){
+                smallest = array[a];
+            }
+
+        }
+        return smallest;
+
+    }
+
+    public int findDuplicate(int[] array) {
+        for (int a = 0; a < array.length; a++){
+            for (int b = a+1; b < array.length; b++){
+                if (array[a] == array[b]){
+                    return array[b];
+                }
+            }
+        }
+        throw new NullPointerException("no duplicate element");
+    }
+
+    public int findDifferencesAndLargest(int[] array) {
+        int[] c = new int[array.length-1];
+        int largest = c[0];
+        for (int a = 0; a < array.length-1; a++){
+            int b = array[a] - array[a+1];
+            c[a] = b;
+        }
+        for (int b = 0; b < c.length; b++){
+            if ( c[b] > largest){
+                largest = c[b];
+            }
+
+        }
+        return largest;
+    }
+
+    public int binarySearch(int[] array, int i) {
+        int temp = 0;
+        for ( int a = 0; a < array.length;a++){
+            for ( int b = a; b < array.length; b++){
+                if ( array[a] > array[b]){
+                    temp = array[a];
+                    array[a] = array[b];
+                    array[b] = temp;
+                }
+            }
+        }
+        return search(array,i);
+    }
+    private int search(int[] array, int position){
+        int a = 0;
+        int b = array.length-1;
+        while (a <= b){
+            int middle = (a + b)/2;
+            int middleNumber = array[middle];
+            if (position == middleNumber){
+                return middle;
+            }
+            if(position < middleNumber){
+                b = middle - 1;
+            }
+            else {
+                a = middle + 1;
+            }
+
+        }
+        return -1;
+    }
+
+    public  int[] positionSearch(int[] element) {
+        int[] copy = element.clone();
+        int[] number = new int[element.length];
+        int temp =0;
+        for (int a = 0; a < element.length; a++){
+            for (int b = a; b < element.length; b++){
+                if ( element[a] > element[b]){
+                    temp = element[a];
+                    element[a] = element[b];
+                    element[b] = temp;
+                }
+            }
+        }
+        System.out.println(Arrays.toString(element));
+        for ( int a = 0; a < element.length; a++){
+            for ( int b =0; b < copy.length; b++){
+                if (element[a] == copy[b]){
+                    number[b] = a;
+                }
+
+            }
+        }
+        System.out.println(Arrays.toString(number));
+        return number;
+    }
+
+    public static void main(String[] args) {
+        RemoveArrays arrays = new RemoveArrays();
+        int[] a = {22, 41, 15, 81, 2, 1,7,8,5};
+        int[] b = {22, 41, 15, 81,5};
+//        arrays.positionSearch(a);
+        System.out.print( arrays.canJoin(a,b) + " ");
+    }
+
+    public ArrayList<Integer> canJoin(int[] i, int[] r) {
+        ArrayList<Integer> number = new ArrayList<>();
+        for (int a = i.length-1; a >= 0; a--){
+            number.add(i[a]);
+        }
+        for (int b = r.length-1; b >= 0; b--){
+            number.add(r[b]);
+        }
+        return number;
     }
 }

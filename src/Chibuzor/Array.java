@@ -18,18 +18,21 @@ public class Array {
 
             total = arrays;
         }
-//        System.out.println(Arrays.toString(arrays));
+//        Arrays.sort(total);
+        int temp = 0;
+        for (int a = 0; a < total.length; a++){
+            for (int b = a; b < total.length; b++){
+                if (total[a] > total[b]){
+                    temp = total[a];
+                    total[a] = total[b];
+                    total[b] = temp;
+                }
+            }
+        }
+        System.out.println(Arrays.toString(total));
+        System.out.println();
 
-
-        Arrays.sort(total);
-//        Arrays.sort(total,Collections.reverseOrder());
-//        System.out.println(Arrays.toString(total));
-//        System.out.println(Arrays.toString(compare));
-
-
-
-
-       for ( int nums = 0; nums < total.length; num++) {
+       for ( int nums = 0; nums < total.length; nums++) {
             for (int index = 0; index < compare.length; index++){
                 if (total[nums] == compare[index]){
                     element[index] = nums ;

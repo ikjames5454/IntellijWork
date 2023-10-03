@@ -34,7 +34,8 @@ public class BankTest {
         Bank bank = new Bank("UBA");
         bank.canRegister("james", "ben", "pin");
         assertEquals(new Accounts("1", "james ben", "pin").canGetAccount(),bank.findAccountNumber("1").canGetAccount());
-        bank.canDeposit(10000,"1");
+        bank.canDeposit(5000,"1");
+        bank.canDeposit(5000,"1");
         assertEquals(10000,bank.checkBalance("1","pin"),0.0);
         bank.canWithdraw(7000,"1","pin");
         assertEquals(3000,bank.checkBalance("1","pin"),0.0);

@@ -2,16 +2,16 @@ package tdd;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 public class Diaries {
+    private boolean isLock;
     private final List<Diary> diaries = new ArrayList<>();
+
 
     public void add(String userName,String pin){
         Diary diary = new Diary(userName,pin);
         diaries.add(diary);
-    }
-    public String generateDiaries(){
-        return diaries.size() + 1 + " ";
     }
     public Diary findByUsername(String username){
         for (Diary diary: diaries){
@@ -19,16 +19,15 @@ public class Diaries {
                 return diary;
             }
         }
-        return null;
+        throw new  NullPointerException("wrong username");
 
     }
     public void delete(String userName,String pin){
-//            Diary diary = new Diary(userName, pin);
-//            diaries.remove(diary);
-        if (findByUsername(userName)!= null) {
-            diaries.remove(findByUsername(userName));
-        }
-
+            Diary diary = findByUsername(userName);
+            if (Objects.equals(diary.myDiaryPassword(), pin)){
+                diaries.remove(diary);
+            }else{
+                throw new NullPointerException("wrong pin");
+            }
     }
-
 }

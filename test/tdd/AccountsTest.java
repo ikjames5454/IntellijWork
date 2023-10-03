@@ -25,8 +25,8 @@ public class AccountsTest {
         Accounts account = new Accounts("1", "name", "4545");
         account.deposit(10000);
         assertEquals(10000, account.checkBalance("4545"));
-        account.withDraw(-7000,"4545");
-        assertEquals(10000, account.checkBalance("4545"));
+        account.withDraw(7000,"4545");
+        assertEquals(3000, account.checkBalance("4545"));
 
     }
     @Test

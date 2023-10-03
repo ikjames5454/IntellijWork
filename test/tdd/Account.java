@@ -1,5 +1,7 @@
 package tdd;
 
+import java.util.Objects;
+
 public class Account {
     private int balance;
 private final String PINDIGIT;
@@ -8,8 +10,8 @@ private final String PINDIGIT;
     }
 
     public int getBalance(String pin) {
-        if (PINDIGIT != pin) return 0;
-            return balance;
+        if (!Objects.equals(PINDIGIT, pin)) return 0;
+        return balance;
 
     }
 
@@ -23,7 +25,7 @@ private final String PINDIGIT;
     public void withdraw(int amount,String pin) {
         if( amount > 0) {
             if (amount < balance) {
-                if (PINDIGIT == pin) {
+                if (Objects.equals(PINDIGIT, pin)) {
                     balance = balance - amount;
                 }
             }
