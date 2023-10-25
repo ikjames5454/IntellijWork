@@ -146,12 +146,27 @@ public class RemoveArraysTest {
         List<Integer> expected = List.of(9, 8, 7, 5, 2, 1, 10, 4, 2, 9, 6);
         assertIterableEquals(actual,expected);
     }
+    @Test
+    public void testThatCanFindMostOccurringElement(){
+        RemoveArrays removeArrays = new RemoveArrays();
+        int[] i = {1, 2, 5, 7, 8, 9,9,8,8,1,1,7,7,7,7,7,9};
+        int num = removeArrays.mostFrequent(i);
+        int expected = 7;
+        assertEquals(num,expected);
 
-
-
-
-
-
-
-
+    }
+    @Test
+    public void swapping() {
+        RemoveArrays removeArrays = new RemoveArrays();
+        int[] array = removeArrays.swapping(new int[]{22, 41, 15, 81, 2, 1, 7});
+        int[] expected = {22, 41, 2, 81, 15, 1, 7};
+        assertArrayEquals(array, expected);
+    }
+    @Test
+    public void movingZeroes(){
+        RemoveArrays removeArrays = new RemoveArrays();
+        int[] array = removeArrays.movingZeroes(new int[]{0,22, 41, 15,0, 81, 0, 2, 1, 7});
+        int[] expected = {22, 41, 15, 81, 2, 1, 7,0,0,0};
+        assertArrayEquals(array, expected);
+    }
 }

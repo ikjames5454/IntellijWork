@@ -116,7 +116,8 @@ public class RemoveArrays {
         return element;
     }
 
-    public static int[] iCanAdd(int[] element) {
+    public static int[]
+    iCanAdd(int[] element) {
         remove(element, 67);
         remove(element, 967);
         remove(element, 7);
@@ -255,5 +256,53 @@ public class RemoveArrays {
             number.add(r[b]);
         }
         return number;
+    }
+
+    public int mostFrequent(int[] i) {
+        int mostFrequent = i[0];
+        int store = 0;
+        for (int a = 0; a < i.length; a++){
+            int count = 0;
+            for (int b = 0; b < i.length; b++){
+                if (i[a] == i[b]){
+                    count++;
+                }
+            }
+            if (count > mostFrequent){
+                mostFrequent = count;
+                store = i[a];
+            }
+        }
+        return store;
+    }
+
+    public int[] swapping(int[] number) {
+        int num1 = number[2];
+        int num2 = number[4];
+        number[2] += num2;
+        number[4] += num1;
+
+        number[2] -= num1;
+        number[4] -= num2;
+        return number;
+//        number[2] ^= number[4];
+//        number[4] ^= number[2];
+//        number[2] ^= number[4];
+
+    }
+
+
+    public int[] movingZeroes(int[] element) {
+        int temp = 0;
+        for (int a = 0; a < element.length; a++){
+            for (int b = a + 1; b < element.length; b++){
+                if (element[a] == 0){
+                    temp = element[b];
+                    element[b] = element[a];
+                    element[a] = temp;
+                }
+            }
+        }
+        return element;
     }
 }

@@ -31,5 +31,6 @@ public class SortedString {
             b--;
         }
         System.out.println(Arrays.toString(str));
+        System.out.println(str);
     }
 }
