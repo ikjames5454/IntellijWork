@@ -6,7 +6,7 @@ public class NamesInput {
 
     public static void main(String[] args) {
         NamesInput names = new NamesInput();
-        String name = "ikenna james ";
+        String name = "ikenna james jimmy";
         names.collectName(name);
         System.out.println(names.anagram("james","majes"));
         System.out.println(names.reverse("ikenna james alagbu"));

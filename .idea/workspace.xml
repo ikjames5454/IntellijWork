@@ -5,32 +5,58 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9785e63-6c59-4b9b-b1d9-46a72dbb07c4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ArrayExercise/Anagram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArrayExercise/FrequentNumber2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArrayExercise/HashRemover.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArrayExercise/MostFrequentNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArrayExercise/movingZeroes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ChibuzorAssignment/MyStringBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strings/RegexCondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strings/StringBuilders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strings/Subsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strings/SumOfTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strings/AddDigit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tdd/Digit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/MyStringBuilderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/RegexConditionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/SubsequenceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/tdd/DigitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/tdd/MyStringBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArrayExercise/Arrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArrayExercise/VowelsReverser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Feet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FunctionalInterface/Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FunctionalInterface/Example1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FunctionalInterface/Example2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FunctionalInterface/Example3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FunctionalInterface/Example4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FunctionalInterface/Example5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FunctionalInterface/Example6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FunctionalInterface/Example7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FunctionalInterface/Example8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FunctionalInterface/Example9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interface/Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interface/Functional.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/Examples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/FileReaders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/FilesReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/JavaNio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/NumberToRoman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/ObjectSerialization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/PrintStreams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/Radix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/RomanNumeral.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/intermediateOperation/EXample12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/intermediateOperation/Example10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/intermediateOperation/Example11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/intermediateOperation/Example14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/intermediateOperation/Example7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/intermediateOperation/Example8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/intermediateOperation/Example9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/intermediateOperation/Examplw13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/intermediateOperation/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/intermediateOperation/Stream3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/intermediateOperation/Stream4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/intermediateOperation/Stream5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/intermediateOperation/Stream6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/intermediateOperation/Streams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/intermediateOperation/Streams2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linklist/LinkList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linklist/LinkListCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linklist/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linklist/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/multDimensionalArray/Array3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strings/Regex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/RomanNumeralTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArrayExercise/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayExercise/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArrayExercise/ReverseString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayExercise/ReverseString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Arrays/SortedString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/SortedString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exception/ExceptionHandling3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exception/ExceptionHandling3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tdd/NamesInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tdd/NamesInput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/tdd/NamesInputTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/tdd/NamesInputTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/tdd/RemoveArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/tdd/RemoveArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/tdd/RemoveArraysTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/tdd/RemoveArraysTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/tdd/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/tdd/Bank.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,8 +70,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -84,15 +110,15 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
     &quot;last_directory_selection&quot;: &quot;/home/james/Document/myWork/test/tdd&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/james/Document/myWork/tdd&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/james/Desktop/To-do-list-main&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -121,9 +147,9 @@
       <recent name="Chapter5" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RegexCondition">
-    <configuration name="Array2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayExercise.Array2" />
+  <component name="RunManager" selected="Application.Array3">
+    <configuration name="Anagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayExercise.Anagram" />
       <module name="myWork" />
       <extension name="coverage">
         <pattern>
@@ -135,12 +161,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegexCondition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.RegexCondition" />
+    <configuration name="Array3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multDimensionalArray.Array3" />
       <module name="myWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Strings.*" />
+          <option name="PATTERN" value="multDimensionalArray.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,12 +174,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringBuilders" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.StringBuilders" />
+    <configuration name="Arrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayExercise.Arrays" />
       <module name="myWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Strings.*" />
+          <option name="PATTERN" value="ArrayExercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,12 +187,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumOfTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.SumOfTwo" />
+    <configuration name="VowelsReverser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayExercise.VowelsReverser" />
       <module name="myWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Strings.*" />
+          <option name="PATTERN" value="ArrayExercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,23 +200,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegexConditionTest.confirmation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BankTest.testThatICanTransferFromOneAccountToAnother" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myWork" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RegexConditionTest" />
-      <option name="METHOD_NAME" value="confirmation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tdd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tdd" />
+      <option name="MAIN_CLASS_NAME" value="tdd.BankTest" />
+      <option name="METHOD_NAME" value="testThatICanTransferFromOneAccountToAnother" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Array3" />
+      <item itemvalue="Application.Anagram" />
+      <item itemvalue="Application.Arrays" />
+      <item itemvalue="Application.VowelsReverser" />
+      <item itemvalue="JUnit.BankTest.testThatICanTransferFromOneAccountToAnother" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RegexCondition" />
-        <item itemvalue="JUnit.RegexConditionTest.confirmation" />
-        <item itemvalue="Application.SumOfTwo" />
-        <item itemvalue="Application.Array2" />
-        <item itemvalue="Application.StringBuilders" />
+        <item itemvalue="Application.Array3" />
+        <item itemvalue="Application.Arrays" />
+        <item itemvalue="Application.Anagram" />
+        <item itemvalue="JUnit.BankTest.testThatICanTransferFromOneAccountToAnother" />
+        <item itemvalue="Application.VowelsReverser" />
       </list>
     </recent_temporary>
   </component>
@@ -438,6 +477,45 @@
       <workItem from="1698136952191" duration="8777000" />
       <workItem from="1698172807440" duration="8846000" />
       <workItem from="1698219629090" duration="10636000" />
+      <workItem from="1698266607464" duration="3002000" />
+      <workItem from="1698309125128" duration="17051000" />
+      <workItem from="1698392181982" duration="9134000" />
+      <workItem from="1698421040899" duration="716000" />
+      <workItem from="1698421976069" duration="333000" />
+      <workItem from="1698440492914" duration="2866000" />
+      <workItem from="1698673454471" duration="310000" />
+      <workItem from="1698780100824" duration="1226000" />
+      <workItem from="1698942389290" duration="2880000" />
+      <workItem from="1699009268924" duration="1040000" />
+      <workItem from="1699022405328" duration="599000" />
+      <workItem from="1699051752554" duration="593000" />
+      <workItem from="1699211609960" duration="599000" />
+      <workItem from="1699348449629" duration="10540000" />
+      <workItem from="1699377455735" duration="662000" />
+      <workItem from="1699431423631" duration="17181000" />
+      <workItem from="1699457329929" duration="648000" />
+      <workItem from="1699458151779" duration="766000" />
+      <workItem from="1699478721909" duration="994000" />
+      <workItem from="1699524527296" duration="599000" />
+      <workItem from="1699563578305" duration="2032000" />
+      <workItem from="1699600064761" duration="599000" />
+      <workItem from="1699736643792" duration="1205000" />
+      <workItem from="1699805322677" duration="599000" />
+      <workItem from="1699902874128" duration="434000" />
+      <workItem from="1699950215567" duration="3021000" />
+      <workItem from="1700211987418" duration="599000" />
+      <workItem from="1700554941853" duration="6621000" />
+      <workItem from="1701160640260" duration="6467000" />
+      <workItem from="1701209922472" duration="1362000" />
+      <workItem from="1701332373294" duration="594000" />
+      <workItem from="1701358386995" duration="7000" />
+      <workItem from="1701693098066" duration="61000" />
+      <workItem from="1704926211456" duration="314000" />
+      <workItem from="1705047133195" duration="2331000" />
+      <workItem from="1705063208155" duration="704000" />
+      <workItem from="1705078236107" duration="400000" />
+      <workItem from="1705613115021" duration="541000" />
+      <workItem from="1705648113187" duration="889000" />
     </task>
     <servers />
   </component>
@@ -768,6 +846,15 @@
           </properties>
           <option name="timeStamp" value="133" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/intermediateOperation/Example9.java</url>
+          <line>5</line>
+          <properties class="intermediateOperation.Example9" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/test/tdd/AccountTest.java</url>
           <line>32</line>
@@ -833,5 +920,10 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/myWork$Example7.ic" NAME="Example7 Coverage Results" MODIFIED="1699457969120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>intermediateOperation.*</FILTER>
+    </SUITE>
   </component>
 </project>

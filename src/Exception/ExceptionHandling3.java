@@ -9,6 +9,7 @@ public class ExceptionHandling3 {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         System.out.println("Enter a string: ");
         read = reader.readLine();
+        System.out.println(read);
 
     }
 }

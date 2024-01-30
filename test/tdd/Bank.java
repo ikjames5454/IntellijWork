@@ -23,8 +23,8 @@ public class Bank {
     }
 
     public String generateAccountNumber(){
-      return "6" + (int) (Math.random() * 100000) + (int) (Math.random() * 10000) ;
-//        return account.size() + 1 + "";
+//      return "6" + (int) (Math.random() * 100000) + (int) (Math.random() * 10000) ;
+       return account.size() + 1 + "";
 
     }
 
